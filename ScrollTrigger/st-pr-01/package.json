@@ -1,0 +1,19 @@
+{
+  "name": "st-pr-01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "gsap": "^3.13.0",
+    "sass": "^1.89.2",
+    "vite": "^6.3.5"
+  }
+}
