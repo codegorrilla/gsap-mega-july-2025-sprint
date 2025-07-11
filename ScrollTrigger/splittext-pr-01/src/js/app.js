@@ -28,14 +28,19 @@ gsap.from(split.chars, {
 	ease: 'power1.in',
 });
 
+gsap.set('.image-stack', {
+	perspective: 800,
+});
+
 stackImages.forEach((img, index) => {
 	gsap.set(img, {
 		x: gsap.utils.random(-15, 15),
 		y: gsap.utils.random(-15, 15),
-		rotation: gsap.utils.random(-5, 5),
+		rotation: gsap.utils.random(-15, 15),
 		scale: 0.9,
 		opacity: 0,
 		zIndex: stackImages.length - index,
+		boxShadow: '0 4px 8px rgba(0, 0, 0, 0.8)',
 	});
 });
 
@@ -46,6 +51,6 @@ gsap.to(stackImages, {
 		from: 'random',
 	},
 	duration: 0.5,
-	ease: 'power1.out',
+	ease: 'power2.in',
 	delay: 1,
 });
