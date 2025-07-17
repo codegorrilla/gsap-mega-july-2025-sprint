@@ -1,0 +1,59 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html,
+body {
+	width: 100vw;
+	height: 100vh;
+}
+
+body {
+	font-size: 62.5%;
+	font-family: 'Poppins', sans-serif;
+	line-height: normal;
+	font-weight: normal;
+	color: #333;
+	background-color: #f0f0f0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+img {
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+ol,
+li,
+ul {
+	list-style: none;
+}
+
+//mixin for flex-box
+@mixin flex-box {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+//custom
+section {
+	width: 100vw;
+	height: 100vh;
+	@include flex-box();
+}
+
+h2 {
+	font-size: 3rem;
+}
