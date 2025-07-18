@@ -1,0 +1,26 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+img {
+	width: 400px;
+	height: 600px;
+	// clip-path: polygon(0% 100%, 100% 100%, 100% 100%, 100% 0%);
+	clip-path: circle(2%);
+	transition: all linear 0.3s;
+
+	&:hover {
+		clip-path: circle(30%);
+		transition: all linear 0.3s;
+	}
+}

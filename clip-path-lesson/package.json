@@ -1,0 +1,17 @@
+{
+  "name": "clip-path-lesson",
+  "version": "1.0.0",
+  "description": "",
+  "main": "vite.config.js",
+  "scripts": {
+    "start": "vite"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "sass": "^1.89.2",
+    "vite": "^6.3.5"
+  }
+}

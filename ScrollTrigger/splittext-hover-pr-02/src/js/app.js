@@ -52,7 +52,7 @@ imgs.forEach((img, i) => {
 	gsap.set(img, {
 		xPercent: 'random(-2,2)',
 		yPercent: 'random(-2,2)',
-		rotation: 'random(-15,15)',
+		rotation: 'random(-10,10)',
 		scale: Math.random() * 0.4,
 		opacity: 0,
 		visibility: 'hidden',
